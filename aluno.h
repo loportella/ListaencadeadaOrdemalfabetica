@@ -1,0 +1,12 @@
+typedef struct Aluno aluno;
+typedef struct lista lst;
+lst *cria(lst *l);
+aluno *dados();
+lst *insere(lst *l,aluno *e);
+void imp(lst *l);
+void ordenar(lst *l);
+void busca(lst *l);
+int excluir(lst *l,char m[50]);
+lst *remfim(lst *l);
+lst *remini(lst *l);
+lst *remmeio(lst *l,char m[50]);
